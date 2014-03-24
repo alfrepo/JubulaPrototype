@@ -21,14 +21,6 @@
 	</properties>
 
 
-	<!-- <repositories> -->
-	<!-- <repository> -->
-	<!-- <id>juno</id> -->
-	<!-- <layout>p2</layout> -->
-	<!-- <url>http://download.eclipse.org/releases/juno</url> -->
-	<!-- </repository> -->
-	<!-- </repositories> -->
-
 	<repositories>
 		<repository>
 			<id>project.local</id>
@@ -98,18 +90,4 @@
 		</plugins>
 	</build>
 
-	<dependencies>
-		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-			<version>20030203.000129</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.nebula.widgets.nattable.core</groupId>
-			<artifactId>
-				org.eclipse.nebula.widgets.nattable.core
-			</artifactId>
-			<version>1.0.0.201305291732</version>
-		</dependency>
-	</dependencies>
 </project> 
