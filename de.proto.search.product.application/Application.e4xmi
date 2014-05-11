@@ -35,6 +35,7 @@
     <bindings xmi:id="_xB5swpp7EeOyCpYIeLcF6w" keySequence="M1+O" command="_xB5swJp7EeOyCpYIeLcF6w"/>
     <bindings xmi:id="_xB5sxZp7EeOyCpYIeLcF6w" keySequence="M1+S" command="_xB5sw5p7EeOyCpYIeLcF6w"/>
     <bindings xmi:id="_xB5syJp7EeOyCpYIeLcF6w" keySequence="M1+A" command="_xB5sxpp7EeOyCpYIeLcF6w"/>
+    <bindings xmi:id="_ADlXYLYAEeOuToopnXaxcg" keySequence="M3+Shift+F5" command="_4JB7oLX_EeOuToopnXaxcg"/>
   </bindingTables>
   <rootContext xmi:id="_xB5suZp7EeOyCpYIeLcF6w" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_xB5supp7EeOyCpYIeLcF6w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
@@ -44,6 +45,7 @@
   <commands xmi:id="_xB5swJp7EeOyCpYIeLcF6w" elementId="de.proto.search.product.application.open" commandName="openCommand"/>
   <commands xmi:id="_xB5sw5p7EeOyCpYIeLcF6w" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
   <commands xmi:id="_xB5sxpp7EeOyCpYIeLcF6w" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_4JB7oLX_EeOuToopnXaxcg" elementId="org.eclipse.e4.css.OpenSpy" commandName="cssSpyCommand" description="Opens the css editor"/>
   <addons xmi:id="_xB5sspp7EeOyCpYIeLcF6w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_xB5ss5p7EeOyCpYIeLcF6w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_xB5stJp7EeOyCpYIeLcF6w" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

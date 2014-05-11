@@ -10,7 +10,49 @@
                name="appName"
                value="Application Product">
          </property>
+		 <property
+           name="cssTheme"
+           value="org.eclipse.e4.tutorial.contacts.themes.e4_default_winxp_blu">
+     	 </property>
+              <property
+           name="applicationCSSResources"
+           value="platform:/plugin/de.proto.search.product.application/images/">
+     </property>
+
       </product>
+   </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/blue.css"
+            id="org.eclipse.e4.tutorial.contacts.themes.blue"
+            label="Blue Theme">
+      </theme>
+      <theme
+            basestylesheeturi="css/e4_default.css"
+            id="org.eclipse.e4.tutorial.contacts.themes.e4_default"
+            label="E4 Default">
+      </theme>
+      <theme
+            basestylesheeturi="css/e4_default_gtk.css"
+            id="org.eclipse.e4.tutorial.contacts.themes.e4_default_gtk"
+            label="E4 default gtk">
+      </theme>
+      <theme
+            basestylesheeturi="css/e4_default_mac.css"
+            id="org.eclipse.e4.tutorial.contacts.themes.e4_default_mac"
+            label="E4 default mac">
+      </theme>
+      <theme
+            basestylesheeturi="css/e4_default_winxp_blu.css"
+            id="org.eclipse.e4.tutorial.contacts.themes.e4_default_winxp_blu"
+            label="e4_default_winxp_blu">
+      </theme>
+      <theme
+            basestylesheeturi="css/e4_default_win7.css"
+            id="org.eclipse.e4.tutorial.contacts.themes.e4_default_win7"
+            label="e4_default_win7">
+      </theme>
    </extension>
 
 
